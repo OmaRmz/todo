@@ -14,6 +14,28 @@ git clone https://github.com/OmaRmz/todo.git
 
 ## How to setting 
 
+Switch to the repo folder
+    
+    cd todo
+
+Install all the dependencies using composer
+
+```
+composer install
+```
+
+Copy the example env file and make the required configuration changes in the .env file
+
+```
+cp .env.example .env
+```
+
+Generate a New Application Key
+
+```
+php artisan key:generate
+```
+
 Run the migration
 
 ```
@@ -26,8 +48,8 @@ Or run the migration with seeder if you want seeding the related data
 php artisan migrate
 ```
 
-Generate a New Application Key
+Start the local development server
 
 ```
-php artisan key:generate
+php artisan serve
 ```
