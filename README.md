@@ -42,12 +42,6 @@ Run the migration
 php artisan migrate
 ```
 
-Or run the migration with seeder if you want seeding the related data
-
-```
-php artisan migrate
-```
-
 Start the local development server
 
 ```
